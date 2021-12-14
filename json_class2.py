@@ -20,9 +20,10 @@ data = '''
 
 info = json.loads(data)
 print('User count:', len(info))
-for item in info:
-    print()
-    print('Name', item['name'])
-    print('Id', item['id'])
-    print('Attribute', item['x'])
-    print()
+print(info[1])
+# for item in info:
+#     print()
+#     print('Name', item['name'])
+#     print('Id', item['id'])
+#     print('Attribute', item['x'])
+#     print()
